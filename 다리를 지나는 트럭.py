@@ -12,9 +12,8 @@ while bridge:
     count += 1
     bridge.pop(0)
     if truck_weight:
-        next_truck = truck_weight.pop(0)
-        if sum(bridge)+next_truck <= weight:
-            bridge.append(next_truck)
+        if sum(bridge)+truck_weight[0] <= weight:
+            bridge.append(truck_weight.pop(0))
         else:
             bridge.append(0)
 
