@@ -1,7 +1,7 @@
 # TrendSeminar
 
 ## CodingStudy
-involved: JY
+involved: JS
 
 
 
@@ -11,7 +11,7 @@ involved: SY
 Reviewed the book & shared the maual solution for sexercises
 
 ## Nand2Tetris
-invovled: SY 
+invovled: SY  
 Follow up the lecture, **From Nand to Tetris: Building a mordern computer from first principles** by Noam Nisan & Shimon Schocken  
 Link: <https://www.nand2tetris.org>
 
