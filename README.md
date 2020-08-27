@@ -16,5 +16,5 @@ Follow up the lecture, **From Nand to Tetris: Building a mordern computer from f
 Link: <https://www.nand2tetris.org>
 
 
-## Hi
+## Stock Prediction with Tensorflow v.2.0
 
