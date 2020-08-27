@@ -10,8 +10,6 @@ def get_bs_obj(company_code):
     bs_obj = BeautifulSoup(result.content, "html.parser")
     return bs_obj
 
-# company_code를 입력받아 now_price를 출력
-
 
 def get_price(company_code):
     bs_obj = get_bs_obj(company_code)
@@ -20,18 +18,6 @@ def get_price(company_code):
     now_price = blind.text
     return now_price
 
-<<<<<<< HEAD
-# 펄어비스 회사 코드는 "263750"
-# 삼성전자 회사 코드는 "005930"
-# 셀트리온 회사 코드는 "068270"
-
-
-company_codes = ["263750", "005930", "068270", '086900']
-
-for item in company_codes:
-    now_price = get_price(item)
-    print(now_price)
-=======
 
 def get_candle_chart(company_code):
     bs_obj = get_bs_obj(company_code)
@@ -51,7 +37,6 @@ def get_candle_chart(company_code):
     high = second_tds.find('span', {'class': 'blind'}).text
 
     # 거래량
-    print(trs)
 
     # open 시가
     second_tr = trs[1]  # 두 번째 tr 지정
@@ -78,4 +63,3 @@ for item in company_codes:
     candle_chart = get_candle_chart(item)
     print(now_price)
     print(candle_chart)
->>>>>>> master
