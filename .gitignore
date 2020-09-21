@@ -1,3 +1,5 @@
+yolov3.*
+*.pkl
 PRML_Exercises/working/*.*
 nand2tetris/tools/*.*
 
